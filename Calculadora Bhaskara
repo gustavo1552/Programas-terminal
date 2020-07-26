@@ -1,0 +1,10 @@
+a = int(input("Digite o valor de A:"))
+b = int(input("Digite o valor de B:"))
+c = int(input("Digite o valor de C:"))
+
+dentro_da_raiz = (b**2-4*a*c)
+fora_da_raiz = (dentro_da_raiz**0.5)
+x1 = ((-b+fora_da_raiz)/(2*a))
+x2 = ((-b-fora_da_raiz)/(2*a))
+print(f"O valor de x' é: {x1}")
+print(f"O valor de x'' é: {x2}")
