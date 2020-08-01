@@ -1,0 +1,5 @@
+#Caclular área de um circulo
+raio = float(input("Digite o raio do circulo:"))
+pi = float(3.14159)
+area = (pi*raio**2)
+print(f"A área do circulo é: {area}")
